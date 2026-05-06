@@ -1,5 +1,6 @@
 
 <?php
+
 require_once('admin_functions.php'); // Thay thế đường dẫn này bằng đường dẫn tới file chứa các hàm của bạn
 
 $newestHumidityValue = getLatestValueFromTable('humidity', 'humidity_value','humidity_time');
